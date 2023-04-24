@@ -2,7 +2,7 @@
 
 This repository includes a custom status page for Better Stack's Better Uptime service.
 
-## Framwork
+## Framework
 - Nuxt3
 
 ## Open ToDo's
