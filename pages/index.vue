@@ -2,27 +2,27 @@
   <div>
     <div class="flex px-10 mt-0 mx-auto max-w-4xl">
       <div class="w-full">
-        <ul class="monitor-list list-none border-border-light border rounded">
-          <li v-for="monitor in allMonitors" v-bind:key="monitor.id" class="border-b border-border-light last-of-type:border-b-0">
+        <ul class="monitor-list list-none border-gray-light border rounded">
+          <li v-for="monitor in allMonitors" v-bind:key="monitor.id" class="border-b border-gray-light last-of-type:border-b-0">
             <div v-if="monitor.attributes.status !== 'paused' || monitor.attributes.status !== 'validating'" class="monitor-holder flex p-5">
-              <span class="text-base font-medium leading-none">{{ monitor.attributes.pronounceable_name }}</span>
+              <span class="text-base font-medium text-dark leading-none">{{ monitor.attributes.pronounceable_name }}</span>
               <span class="flex ml-auto items-center leading-none">
 
                 <!-- Monitor is "pending" -->
                 <span v-if="monitor.attributes.status === 'pending'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-warning"></span>
-                <span v-if="monitor.attributes.status === 'pending'" class="text-warning font-light">In Überprüfung</span>
+                <span v-if="monitor.attributes.status === 'pending'" class="text-warning font-medium">Pending</span>
 
                 <!-- Monitor is "maintenance" -->
                 <span v-if="monitor.attributes.status === 'maintenance'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-warning"></span>
-                <span v-if="monitor.attributes.status === 'maintenance'" class="text-warning font-light">In Wartung</span>
+                <span v-if="monitor.attributes.status === 'maintenance'" class="text-warning font-medium">Maintenance</span>
 
                 <!-- Monitor is "up" -->
                 <span v-if="monitor.attributes.status === 'up'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-success"></span>
-                <span v-if="monitor.attributes.status === 'up'" class="text-success font-light">Verfügbar</span>
+                <span v-if="monitor.attributes.status === 'up'" class="text-success font-medium">Operational</span>
 
                 <!-- Monitor is "down" -->
                 <span v-if="monitor.attributes.status === 'down'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-error"></span>
-                <span v-if="monitor.attributes.status === 'down'" class="text-error font-light">Nicht verfügbar</span>
+                <span v-if="monitor.attributes.status === 'down'" class="text-error font-medium">Downtime</span>
               </span>
             </div>
           </li>
