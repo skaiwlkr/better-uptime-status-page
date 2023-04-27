@@ -15,3 +15,9 @@
 body {
     font-family: Inter;
 }
+
+@layer components {
+  .text-link {
+    @apply text-gray hover:text-dark transition-all
+  }
+}
