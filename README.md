@@ -15,6 +15,8 @@ This repository includes a custom status page for Better Stack's Better Uptime s
 - ... more features on [Better Uptime](https://betterstack.com/better-uptime)
 
 ## Open ToDo's
+- [ ] Meta data & SEO
+- [ ] Loading indicator
 - [ ] Documentation
 - [ ] i18n
 
