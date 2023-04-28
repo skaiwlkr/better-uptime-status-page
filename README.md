@@ -2,18 +2,30 @@
 
 This repository includes a custom status page for Better Stack's Better Uptime service.
 
-## Framework
-- Nuxt3
+## 🔨 Built With
+- [Nuxt 3](https://nuxt.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Better Uptime](https://betterstack.com/better-uptime)
+
+## 🚀 Features
+- 🤩 Free
+- 📖 Open-Source
+- 🚀 Host it on [Vercel](https://vercel.com)
+- 🎨 Freedom in customizability
+- ... more features on [Better Uptime](https://betterstack.com/better-uptime)
 
 ## Open ToDo's
-- [ ] Basic template
-- [ ] Basic SEO
-- [ ] Monitor list
-- [ ] Environment variables
-- [ ] Documentation
-- [ ] Easy setup via Vercel
+- [ ] Meta data & SEO
 - [ ] Loading indicator
+- [ ] Documentation
 - [ ] i18n
+
+## Setup instructions
+
+> **Warning**
+> This project is still under development
+
+Currently in progress...
 
 
 ## Contributors
