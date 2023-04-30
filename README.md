@@ -5,6 +5,8 @@
 <br />
 <br />
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fskaiwlkr%2Fbetter-uptime-status-page&env=BETTERSTACK_URL,BETTERSTACK_TOKEN)
+
 # Status Page
 
 An custom built status page for Better Stack's Better Uptime service.
@@ -43,7 +45,7 @@ BETTERSTACK_URL=https://betteruptime.com/api/v2/monitors
 BETTERSTACK_TOKEN=YOUR-TOKEN-HERE
 ```
 
-3. Set up on [Vercel](https://vercel.com) and add your environment variables
+3. Set up on [Vercel](https://vercel.com) and add your environment variables (You can make use of the Vercel's "Deploy"-Button)
 4. Enjoy 🎉
 
 ## Contributors
