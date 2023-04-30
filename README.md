@@ -1,6 +1,13 @@
-# Status Page for Better Uptime (Better Stack)
+<p align="center">
+  <img src="docs/logo_with_background.svg" />
+</p>
 
-This repository includes a custom status page for Better Stack's Better Uptime service.
+# Status Page
+
+An custom built status page for Better Stack's Better Uptime service.
+
+- [View screenshot](docs/screenshot.png)
+- [View demo](better-uptime-status-page.vercel.app)
 
 ## 🔨 Built With
 - [Nuxt 3](https://nuxt.com/)
