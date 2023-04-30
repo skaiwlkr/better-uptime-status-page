@@ -1,13 +1,16 @@
+<br />
 <p align="center">
   <img src="docs/logo_with_background.svg" />
 </p>
+<br />
+<br />
 
 # Status Page
 
 An custom built status page for Better Stack's Better Uptime service.
 
 - [View screenshot](docs/screenshot.png)
-- [View demo](better-uptime-status-page.vercel.app)
+- [View demo](https://better-uptime-status-page.vercel.app)
 
 ## 🔨 Built With
 - [Nuxt 3](https://nuxt.com/)
