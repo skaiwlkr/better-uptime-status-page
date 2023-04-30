@@ -35,8 +35,16 @@ An custom built status page for Better Stack's Better Uptime service.
 > **Warning**
 > This project is still under development
 
-Currently in progress...
+1. Fork the repository
+2. Create an .env file with your Team Token from Better Stack
 
+```env
+BETTERSTACK_URL=https://betteruptime.com/api/v2/monitors
+BETTERSTACK_TOKEN=YOUR-TOKEN-HERE
+```
+
+3. Set up on [Vercel](https://vercel.com) and add your environment variables
+4. Enjoy 🎉
 
 ## Contributors
 Created by [skaiwlkr](https://skaiwlkr.com).
