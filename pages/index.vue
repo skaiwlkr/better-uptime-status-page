@@ -10,19 +10,19 @@
 
                 <!-- Monitor is "pending" -->
                 <span v-if="monitor.attributes.status === 'pending'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-warning"></span>
-                <span v-if="monitor.attributes.status === 'pending'" class="text-warning font-medium">Pending</span>
+                <span v-if="monitor.attributes.status === 'pending'" class="text-warning font-medium">Pendiente</span>
 
                 <!-- Monitor is "maintenance" -->
                 <span v-if="monitor.attributes.status === 'maintenance'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-warning"></span>
-                <span v-if="monitor.attributes.status === 'maintenance'" class="text-warning font-medium">Maintenance</span>
+                <span v-if="monitor.attributes.status === 'maintenance'" class="text-warning font-medium">Mantenimiento</span>
 
                 <!-- Monitor is "up" -->
                 <span v-if="monitor.attributes.status === 'up'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-success"></span>
-                <span v-if="monitor.attributes.status === 'up'" class="text-success font-medium">Operational</span>
+                <span v-if="monitor.attributes.status === 'up'" class="text-success font-medium">Operativo</span>
 
                 <!-- Monitor is "down" -->
                 <span v-if="monitor.attributes.status === 'down'" class="inline-block mr-1.5 h-2 w-2 rounded-full bg-error"></span>
-                <span v-if="monitor.attributes.status === 'down'" class="text-error font-medium">Downtime</span>
+                <span v-if="monitor.attributes.status === 'down'" class="text-error font-medium">Inactividad</span>
               </span>
             </div>
           </li>
@@ -34,17 +34,14 @@
 
 <script setup lang="ts">
   useServerSeoMeta({
-    title: 'Status page for Better uptime - Sebastian Kaier',
-    ogTitle: 'Status page for Better uptime - Sebastian Kaier',
-    description: 'See on GitHub - https://github.com/skaiwlkr/better-uptime-status-page',
-    ogDescription: 'Status page for Better uptime - Sebastian Kaier',
-    ogUrl: 'https://better-uptime-status-page.vercel.app/',
-    ogSiteName: 'Status page for Better uptime - Sebastian Kaier',
-    ogImage: 'https://better-uptime-status-page.vercel.app/og-image.png',
+    title: 'ISLAB - Estado de los servicios',
+    ogTitle: 'ISLAB - Estado de los servicios',
+    description: 'See on GitHub - https://status.islab.es/',
+    ogDescription: 'ISLAB - Estado de los servicios',
+    ogUrl: 'https://status.islab.es/',
+    ogSiteName: 'ISLAB - Estado de los servicios',
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Status page for Better uptime - Sebastian Kaier',
-    twitterImage: 'https://better-uptime-status-page.vercel.app/og_image.png',
-    twitterDescription: 'See on GitHub - https://github.com/skaiwlkr/better-uptime-status-page'
+    twitterTitle: 'ISLAB - Estado de los servicios'
   })
 
   const runtimeConfig = useRuntimeConfig();
