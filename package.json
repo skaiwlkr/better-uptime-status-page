@@ -1,6 +1,9 @@
 {
-  "name": "nuxt-app",
+  "name": "better-uptime-status-page",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
