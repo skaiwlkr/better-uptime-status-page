@@ -12,7 +12,7 @@
 An custom built status page for Better Stack's Better Uptime service.
 
 - [View screenshot](docs/screenshot.png)
-- [View demo](https://better-uptime-status-page.vercel.app) (Thanks to [Studionuca](https://studionuca.com))
+- [View demo](https://better-uptime-status-page.vercel.app)
 
 ## 🔨 Built With
 - [Nuxt 3](https://nuxt.com/)
